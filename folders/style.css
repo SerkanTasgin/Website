@@ -3,33 +3,47 @@ body {
     background-color: beige;
 }
 img {
-    width: 20rem;
-    height: 20rem;
+    width: 30rem;
+    height: 30rem;
     
   }
-
-div {
-  display: flex;
-
+  /* CSS for header */
+  header{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+    font-size: 5rem;
 }
 
 /* CSS for navigation bar */
 nav {
   border: 0px solid violet;
+  display:flex;
+  width: 100%;
+  
+  
 }
 nav ul {
   list-style-type: none;
   border: 0px solid blue;
   padding: 0;
   margin: 0;
+  flex-flow: row nowrap; 
+  justify-content: space-around;
+  
 }
 nav li {
-  border: 3px solid yellow;
+  border: 3px solid red;
   width: 8rem;
   background-color: goldenrod;
   text-align: center;
   margin-bottom: 0.7rem;
   display: inline-block;
+  
 
 }
 nav a {
@@ -150,10 +164,14 @@ html {
   }
 
   .card-box {
+    
     border: 1px solid black;
     display:flex;
     flex-direction: column;
+    flex-basis: 40%;
     text-align: center;
     align-items: center;
+    justify-content: space-around;
+    
     
   }
