@@ -30,6 +30,7 @@ img {
   }
   /* CSS for header */
   header{
+    margin-bottom: 2rem;
     width: 100%;
     min-height: 300px;
     display: flex;
@@ -97,13 +98,12 @@ a.hover {
     text-decoration: underline;
     background-color: white;
 }
-a.powercoders:link {
-color: maroon;
 
-}
-a link {
-    color: blueviolet;
+a {
+    color: rgb(12, 12, 12);
     font-size: 2rem;
+    text-decoration: none;
+    
 }
 
 /* general styles */
