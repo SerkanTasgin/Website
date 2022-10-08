@@ -40,6 +40,17 @@ img {
     background-color: lightcoral;
     font-size: 5rem;
 }
+header.class {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.leftheader {
+flex-basis: 40%;
+}
+.rightheader {
+flex-basis: 60%;
+}
 
 /* CSS for navigation bar */
 nav {
@@ -83,6 +94,7 @@ nav a:hover {
 }
 /* End of CSS for navigation bar */
 
+/* Will use when I use quote */
 blockquote {
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
@@ -93,6 +105,7 @@ blockquote {
     font-weight: bold;
     font-size: 1.3rem;
 }
+/* End of CSS for quote */
 a.hover {
     color: orange;
     text-decoration: underline;
@@ -172,35 +185,41 @@ html {
     padding: 2rem 8rem;
     text-transform: uppercase;
   }
-
+  
+/* CSS for six boxes */
   .main-container {
     display: flex;
     flex-direction: column;
+    
   }
 
   .line-container {
-    margin-right: 2%;
-    margin-left: 2%;
-    border: 1px solid black;
+    
+    border: 1px solid rgb(239, 8, 8);
     display: flex;
     justify-content: space-around;
     margin-bottom: 2rem;
     gap: 20px;
+    
   }
 
   .card-box {
     
-    border: 1px solid black;
+    border: 1px solid rgb(90, 23, 215);
     display:flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    
-    
-  }
+    }
+    /* End of CSS for six boxes */ 
 
-
+/* I defined all the page with wrapper */
+ .wrapper {
+  width: 90%;
+  margin: 0 auto;
+  border: 5px solid green;
+}
 
 
 
@@ -228,17 +247,23 @@ html {
   footer {
     text-align: center;
     font-size: 0.8rem;
+    border-top: 2px solid black;
   }
   footer ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    
   }
   footer li {
     display: inline-block;
+    
 
   }
   .in {
     width: 2rem;
     height: 2rem;
+    
+
+    
   }
