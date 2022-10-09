@@ -307,9 +307,38 @@ article p {
   margin: 0;
   padding: 0;
   text-align: left;
-  
-  
-}
+  }
 
-
-  
+  .floatleft {
+    float: left;
+    text-align: left;
+    width: 20rem;
+    height: 20rem;
+    border: 3px solid red;
+    margin: -5rem 1rem 1rem 0rem;
+    clear: left;
+    
+    }
+  .floatright {
+      float: right;
+      text-align: right;
+      width: 20rem;
+      height: 20rem;
+      border: 3px solid red;
+      margin: -5rem 1rem 1rem 0rem;
+      clear: right;
+  }
+  .floatleft {
+    border: 2rem solid orange;
+  }
+  .simple {
+    border: 2rem solid violet;
+    font-size: 2rem;
+  }
+  .simplep {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2rem;
+    float: right;
+    text-align: right;
+  }
