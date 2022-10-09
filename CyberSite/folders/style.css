@@ -279,11 +279,13 @@ html {
    /* CSS for second style float left */
    
    section {
+    
     margin-bottom: 0.3rem;
     display: flex;
     flex-flow: column nowrap;
     width: 9S0%;
     justify-content: space-between;
+    border: 3px dotted violet;
    }
 
    article {
@@ -311,34 +313,29 @@ article p {
 
   .floatleft {
     float: left;
-    text-align: left;
+    text-align: right;
     width: 20rem;
     height: 20rem;
     border: 3px solid red;
-    margin: -5rem 1rem 1rem 0rem;
-    clear: left;
+    margin: -4rem 1rem 1rem 0rem;
+    clear: both;
+    border: 2rem solid orange;
     
     }
   .floatright {
       float: right;
-      text-align: right;
+      text-align: left;
       width: 20rem;
       height: 20rem;
       border: 3px solid red;
-      margin: -5rem 1rem 1rem 0rem;
-      clear: right;
+      margin: -3rem 1rem 1rem 1rem;
+      clear: both;
   }
-  .floatleft {
-    border: 2rem solid orange;
-  }
-  .simple {
-    border: 2rem solid violet;
+  
+   .simple:after {
     font-size: 2rem;
+    content: "";
+    display: table;
+    clear: both;
   }
-  .simplep {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 2rem;
-    float: right;
-    text-align: right;
-  }
+  
