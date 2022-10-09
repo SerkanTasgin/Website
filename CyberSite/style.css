@@ -57,9 +57,13 @@ header.class {
   float: left;
   width: 50%;
   flex-basis: 40%;
-  text-align: right;
+  text-align: center;
   padding-right: 0.5rem;
   
+  }
+  .leftheader img {
+    width: 20rem;
+    height: 20rem;
   }
 .rightheader {
   float: left;
