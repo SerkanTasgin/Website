@@ -18,15 +18,60 @@ html {
       display: flex;
       flex-flow: row nowrap;
   }
+  header {
+    margin-bottom: 2rem;
+    width: 90%;
+    min-height: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+    font-size: 4rem;
+}
+
+  nav {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-bottom: 1rem;
+    margin-bottom: 4rem;
+    
+    
+    }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+    }
+  
+  nav li {
+  display: inline-block;
+  }
+  
+  nav a {
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    
+   
+  }
+  nav a:hover {
+    background-color: white;
+    color: red;
+    text-decoration: none;
+  }
+  
   section {
       flex-basis: 57%;
       margin-right: 10%;
   }
   
-  p, [for="abtype"] {
-      margin-bottom: 0;
-      margin-top: 2rem;
-  }
   
   fieldset {
       border: 1px solid black;
