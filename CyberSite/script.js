@@ -3,8 +3,6 @@ let y = 20;
 let z = x + y;
 console.log(z);
 
-let firstname = "Serkan", lastname = "Tasgin", age = "35";
-
-function myFunction() {
-    alert("Hello World!);
-}
+let myVariable = 12
+document.write(myVariable);
+window.alert(myVariable);
