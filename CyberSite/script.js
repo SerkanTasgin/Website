@@ -1,23 +1,18 @@
 const birthYear = 1984;
 let futureYear = 2045;
 let month = 6;
-let futureMonth = 1;
-let ageBeforeBirthday = futureYear - birthYear;
-let ageAfterBirthday = ageBeforeBirthday - 1;
 
-if(month >= futureMonth){
-    console.log('I will be ' + ageBeforeBirthday + ' in ' + futureYear);
-    document.write('I will be ' + ageBeforeBirthday + ' in ' + futureYear);
-}else{
-    console.log(ageBeforeBirthday);
+let fruit = "banana"
+let message;
+
+switch (fruit) {
+    case "apple":
+        message = "🍎"
+        break;
+
+    case "banana":
+        console.log("We reached the case banana");
+        message = "🍌"
+        break;
 }
-
-let age = 30
-let message = age >= 18 ? "major" : "minor";
 alert(message);
-
-
-
-
-
-
