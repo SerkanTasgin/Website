@@ -1,8 +1,4 @@
-let x = 5;
-let y = 20;
-let z = x + y;
-console.log(z);
-
-let myVariable = 12
-document.write(myVariable);
-window.alert(myVariable);
+var birthYear = 1977;
+var futureYear  = 2098;
+var age  = futureYear - birthYear;
+console.log('I will be either ' + age + ' or ' + (age - 1) + ' in ' + futureYear);
