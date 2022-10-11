@@ -12,6 +12,12 @@ if(month >= futureMonth){
     console.log(ageBeforeBirthday);
 }
 
+let age = 30
+let message = age >= 18 ? "major" : "minor";
+alert(message);
+
+
+
 
 
 
