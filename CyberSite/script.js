@@ -1,18 +1,6 @@
-const birthYear = 1984;
-let futureYear = 2045;
-let month = 6;
+let nchildren = 4;
+let partnerName = "Jenny";
+let geoLoc = "NewYork";
+let jobTitle = "Professor";
 
-let fruit = "banana"
-let message;
-
-switch (fruit) {
-    case "apple":
-        message = "🍎"
-        break;
-
-    case "banana":
-        console.log("We reached the case banana");
-        message = "🍌"
-        break;
-}
-alert(message);
+document.write('You will be a, ' + jobTitle + ' in ' + geoLoc + ',' + 'and married to ' + partnerName + ' with ' + nchildren);
