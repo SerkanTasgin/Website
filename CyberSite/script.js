@@ -1,6 +1,7 @@
-let team = ["Linus", "Helene", "Chris", "Hany"]
-
-for (let i = 0; i != team.length; i = i + 1)
 {
-    console.log(i + " Hi " + team[i]);
+    let a = 10
+    console.log(a);}
+{
+    let a = 15
+    console.log(a);
 }
