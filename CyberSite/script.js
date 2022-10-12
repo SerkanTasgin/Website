@@ -1,7 +1,3 @@
-const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
-
-let text = "";
-for (let i = 0; i < cars.length; i++) {
-    text += cars[i] + "<br>"
-    console.log(i + text);
+for (let i = 0; i < 7; i++) {
+    console.log ('Hello World', i);
 }
