@@ -1,7 +1,7 @@
-{
-    let a = 10
-    console.log(a);}
-{
-    let a = 15
-    console.log(a);
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+    text += cars[i] + "<br>"
+    console.log(i + text);
 }
