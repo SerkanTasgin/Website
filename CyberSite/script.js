@@ -1,4 +1,6 @@
-for (let i = 5; i >= 1; i--) {
-    if (i % 2 !== 0) console.log(i);
-    if (i ===3) break;
+const names = ['Ali', 'Veli', 'Ahmet', 'Selim'];
+
+
+for (let i = 0; i < names.length; i++) {
+    document.write(names[i])
 }
