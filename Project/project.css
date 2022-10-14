@@ -5,10 +5,11 @@
 }
 
 body {
-    background-color: cornflowerblue;
+    background-color: ivory;
     min-height: 100vh;
     display: grid;
     text-align: center;
+    align-items: center;
     
 }
 img {
@@ -20,9 +21,16 @@ img {
 }
 img:hover {
     cursor: pointer;
+    transition: transform .2s;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    width: 200px;
+    
 }
 
 #container {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 80%;
@@ -30,5 +38,8 @@ img:hover {
 }
 div p {
     text-align: center;
-    
+    }
+h1 {
+    margin-bottom: 20px;
+    background-color: bisque;
 }

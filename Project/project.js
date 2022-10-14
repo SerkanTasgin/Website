@@ -12,9 +12,10 @@ let people = [
     { name: "Enes", age: 35, image: "images/19-enes.jpg" },
     { name: "Hasan", age: 41, image: "images/09-hasan.jpg" },
     { name: "Ali", age: 35, image: "images/ali.jpg" },
-    { name: "Senay", age: 35, image: "images/35-senay.jpg" }
-    { name: "Fatih", age: 35, image: "images/31-fatih.jpg" }
-    { name: "Jyothi", age: 35, image: "images/31-fatih.jpg" }
+    { name: "Senay", age: 35, image: "images/35-senay.jpg" },
+    { name: "Fatih", age: 35, image: "images/31-fatih.jpg" },
+    { name: "Jyothi", age: 35, image: "images/jyothi.jpg" },
+    { name: "Ari", age: 35, image: "images/25-ari.jpg" }
 ]
 
 let str = "";
