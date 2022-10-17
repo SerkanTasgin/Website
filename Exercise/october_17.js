@@ -1,10 +1,15 @@
-let number1 = "5";
-let number2 = "10";
+let num1 = prompt ("Plearse enter the first number");
+let num2 = prompt ("please enter the second number");
 
-if (number1 <= number2) {
-    document.write('The greater number of'  + number1  + 'and' + number2  + 'is' + number2);
-} else {
-    document.write('The smaller number of'  + number1  + 'and' + number2  + 'is' + number1);
+
+
+let larger;
+if (num1 >= num2){
+
+    bigger = num1;
 }
-   
+else ( num2 >= num1)
+    bigger = num2;
 
+    
+alert("The larger number is " + bigger);
