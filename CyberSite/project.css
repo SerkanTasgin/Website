@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    background-color: ivory;
+    min-height: 100vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.card {
+position: relative;
+
+
+}
+
+.details {
+position: absolute;
+bottom: 0px;
+width: 100%;
+background-color: white;
+font-size: 1.5rem;
+
+
+}
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    margin-left:20px;
+}
+img:hover {
+    cursor: pointer;
+    transition: transform .2s;
+    transform: scale(1.3);
+    width: 200px;
+    
+}
+
+#container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    
+     
+}
+div p {
+    text-align: center;
+    }
+h1 {
+    margin-bottom: 20px;
+    
+ 
+}
+h3 {
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  
+header {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 90%;
+    min-height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+    font-size: 3rem;
+}
+
+header > h1 {
+  font-size: 2rem;
+}
+
+/* CSS for navigation bar */
+nav {
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  margin-bottom: 0;
+  width: 90%;
+  }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  }
+
+nav li {
+display: inline-block;
+}
+
+nav a {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+  
+}
+nav a:hover {
+  background-color: white;
+  color: red;
+  text-decoration: none;
+}
+/* End of CSS for navigation bar */
+
+
