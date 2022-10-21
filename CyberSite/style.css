@@ -39,13 +39,9 @@ img {
     font-size: 5rem;
 }
 
-.header_background {
-  width: 90%;
-  height: 90%;
-  background-image: url(https://thumbs.dreamstime.com/z/cyber-security-information-privacy-data-protection-concept-modern-server-room-background-internet-digital-technology-174970939.jpg);
   
   
-}
+
 
 
 /* header.class {
@@ -233,6 +229,11 @@ html {
     text-align: center;
     margin: 0;
   }
+
+  span {
+    content: "\260E";
+  }
+  
   .in {
     width: 2.5rem;
     height: 2.5rem;
