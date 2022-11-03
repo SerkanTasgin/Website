@@ -31,22 +31,31 @@ html {
   header {
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
     margin-bottom: 2rem;
     width: 100%;
-    min-height: 200px;
-    display: flex;
+    min-height: 50px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: lightcoral;
     font-size: 5rem;
+    background-image: url("images/header.jpeg");
 }
 
 header > h1 {
   font-size: 3rem;
+  font-weight: bold;
+  float: right;
+  position: relative;
+  top: 18px;
+  left: 10px;
+  margin-top: 0;
 }
-
+.header > img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background: #555;
+}
 nav {
   border-bottom: 3px solid black;
   border-top: 3px solid black;
@@ -109,10 +118,7 @@ textarea {
       font-size: 1em;
       border-radius: 10px;
       padding: 0 1rem;
-  }
-textarea {
       height: 10rem;
-      padding: 1rem;
   }
  
 button {
