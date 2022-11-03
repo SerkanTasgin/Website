@@ -40,19 +40,8 @@ img {
     justify-content: center;
     font-size: 5rem;
     background-image: url("images/header.jpeg");
-    
-}
-
-  
-  
-
-
-
-/* header.class {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-} */
+    background-repeat: round;
+  }
 
 header > h1 {
   font-size: 3rem;
@@ -60,12 +49,6 @@ header > h1 {
   
 }
 
-.header > img {
-  float: left;
-  width: 50px;
-  height: 50px;
-  /* background: #555; */
-}
 
 /* CSS for navigation bar */
 nav {
@@ -283,35 +266,7 @@ article p {
   text-align: left;
   }
 
-  /* .floatleft {
-    float: left;
-    text-align: right;
-    width: 20rem;
-    height: 20rem;
-    border: 3px solid red;
-    margin: -4rem 1rem 1rem 0rem;
-    clear: both;
-    border: 2rem solid orange;
-    
-    }
-  .floatright {
-      float: right;
-      text-align: left;
-      width: 20rem;
-      height: 20rem;
-      border: 3px solid red;
-      margin: -3rem 1rem 1rem 1rem;
-      clear: both;
-  }
-   */
-   /* .simple:after {
-    font-size: 2rem;
-    content: "";
-    display: table;
-    clear: both;
-  } */
   
-/* CSS for Ordered LIst */
 
   ol {
     padding: 20px;
@@ -378,6 +333,7 @@ article p {
     height: 40rem;
     
     }
+    
   #ulclass {
   
       padding: 20px;
