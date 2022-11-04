@@ -9,23 +9,18 @@ html {
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: whitesmoke;
-  
-  
-}
+  }
 
 /* I defined all the page with wrapper */
 .wrapper {
   width: 90%;
   margin: 0 auto;
-  
-  
-}
+  }
 
 
 img {
     width: 32rem;
     height: 32rem;
-    
   }
 
   /* CSS for header */
@@ -44,10 +39,20 @@ img {
   }
 
 header > h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
-  
-}
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(images/red.jpeg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+  }
+  @keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+  }
 
 
 /* CSS for navigation bar */
@@ -266,16 +271,14 @@ article p {
   text-align: left;
   }
 
-  
-
-  ol {
+/* ol {
     padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: left;
     padding: 5px;
     margin-left: 35px;
-  }
+  } */
   
 
  

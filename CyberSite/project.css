@@ -84,12 +84,25 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: lightcoral;
+    background-image: url("images/header.jpeg");
+    background-repeat: round;
     font-size: 3rem;
 }
 
 header > h1 {
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 3rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(images/red.jpeg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+  }
+  @keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
 }
 
 /* CSS for navigation bar */
