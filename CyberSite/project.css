@@ -15,8 +15,7 @@ body {
     display: grid;
     text-align: center;
     align-items: center;
-    
-}
+    }
 
 .card {
 position: relative;
@@ -55,8 +54,8 @@ img:hover {
     width: 90%;
     margin: 0 auto;
     
-     
-}
+  }
+
 div p {
     text-align: center;
     }
@@ -74,6 +73,7 @@ h3 {
     margin: 0 auto;
     
   }
+  
   
 header {
     display:flex;

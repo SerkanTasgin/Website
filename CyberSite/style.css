@@ -24,7 +24,7 @@ img {
   }
 
   /* CSS for header */
-  header {
+header {
     display:flex;
     flex-direction: column;
     margin-bottom: 2rem;
